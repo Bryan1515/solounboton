@@ -9,14 +9,14 @@ function LED1_On() {
 	client.send(message);
   
 }
-function LED1_Off(){	
+/*function LED1_Off(){	
 	alert("led off");
 	console.log("led off");
 	//document.getElementById("sensor").innerHTML="led off";
 	message = new Paho.MQTT.Message("OFF");
 	message.destinationName = "bryan.loaiza@unach.edu.ec/tema2";
 	client.send(message);
-}
+}*/
 
 
 
